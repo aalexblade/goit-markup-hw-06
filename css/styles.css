@@ -1105,8 +1105,13 @@ color: #FFFFFF;
   }
   
     /* Футер Подпишитесь на рассылку */
+   
+    .subscribe{
+      display: flex;
+      flex-direction: column;
+    }
 
-  .Subscribe-lable{
+  .subscribe-lable{
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -1119,14 +1124,15 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 20px;
+   
 
   }
 
-  .Subscribe-control{
+  .subscribe-control{
     display: flex;
   }
 
-  .Subscribe-input{
+  .subscribe-input{
     display: flex;
     align-items: center;
     padding-left: 16px;
@@ -1144,18 +1150,25 @@ color: #FFFFFF;
     color: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-    border-radius: 4px;
+    border-radius: 4px; 
 
   }
 
+  .subscribe-icon{
+ 
+  }
+  
 
-  .Subscribe-button{
-    display: flex;
+
+  .subscribe-button{
+     display: flex;
     align-items: center;
+    justify-content: center;
+    display: inline-flex;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    justify-content: center;
+    
     
     cursor: pointer;
     margin-left: 12px;
@@ -1173,7 +1186,7 @@ color: #FFFFFF;
     border-radius: 4px;  
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-   
+    
   }
 
 
