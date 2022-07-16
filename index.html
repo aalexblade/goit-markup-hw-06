@@ -102,20 +102,22 @@
                  <textarea class="form-field-input form-field-input-textarea" name="user-coment" id="user-coment" rows="10" placeholder="Введите текст"></textarea>
              </div>
             </div>
-            <div class="form-field">
-              <label class="form-field-lable" for="terms-condition">Соглашаюсь с рассылкой и принимаю <a class="form-field-lable-text" href="#">Условия договора</a> </label>
-              <div class="form-field-inner">
-              <input  id="terms-condition" type="checkbox" name="terms-condition" >
-              <svg class="form-field-icon" aria-hidden="true">
-                <use href="./images-svg/icon-svg/sprite.svg#icon-"></use>
+            <div class="form-field checkbox">
+              <label class="checkbox-lable" for="terms-condition">Соглашаюсь с рассылкой и принимаю <a class="form-field-lable-text" href="#">Условия договора</a> </label>
+              <div class="checkbox-control">
+              <input class="checkbox-input visually-hidden" id="terms-condition " type="checkbox" name="terms-condition" >
+              <svg class="checkbox-icon icon-square" aria-hidden="true" width="16" height="15">
+                <use href="./images-svg/icon-svg/sprite.svg#icon-square"></use>
+               </svg>
+               <svg class="checkbox-icon icon-check" aria-hidden="true" width="16" height="15">
+                <use href="./images-svg/icon-svg/sprite.svg#icon-check-mark"></use>
                </svg>
               </div>
               </div>
               <button class="form-field-button button" type="submit">Отправить</button>
            </form>
          </div>
- 
-       </div>
+        </div>
       </div>
      </div>
 </section>
@@ -492,6 +494,7 @@
       </li>
     </ul>
   </div>
+  
 </div>
 </footer>
 <script src="./js/modal.js"></script>
