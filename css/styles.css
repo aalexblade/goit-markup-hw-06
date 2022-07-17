@@ -285,7 +285,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
@@ -298,21 +298,13 @@
   }
 
   /* form-field */
-
   
-.modal-inner{
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
- 
-}
-
 .modal-title{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-text-colot);
@@ -321,7 +313,7 @@
 }
 
   .form-field{
-     margin-bottom: 20px;
+     margin-bottom: 10px;
      
   }
 
@@ -332,7 +324,7 @@
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
-   line-height: 1.16px;
+   line-height: 1.16;
    letter-spacing: 0.01em;
    color: var(--tiele-text-color);
    margin-bottom: 8px;
@@ -370,7 +362,7 @@
     padding-left: 16px;
     height: 120px;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.01em;
     resize:none;
     
@@ -418,40 +410,18 @@
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--tiele-text-color);
-  
   flex-shrink: 0; 
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0px; 
   margin-bottom: 30px;
-   margin-left: 37px;
+  margin-left: 37px;
   display: inline-block;
 
 }
 
-  .checkbox-control {
-    /* opacity: 1; */
-    /* flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align:none;
-    display: inline-block; */
-    
-   /* display: flex;
-   align-items: center;
-   justify-content: center;
-    
-   margin-top: 0px; */
-   /* margin-top: 25px;
-   margin-right: 52px; */
-  /* display: inline-block; */
-  /* justify-content:flex-start; */
-  
-  }
-
-   .checkbox-input {
+    .checkbox-input {
     appearance: none;
     
   }
@@ -472,6 +442,7 @@
   } */
 
   .icon-check {
+    position: absolute;
     fill: #ffffff;
     background:#2196F3; 
     border: 0.2px solid #2196F3;
@@ -490,12 +461,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
     border: none;
-    margin-bottom: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;  
     transition-duration: 250ms;
@@ -537,11 +507,11 @@
    /* top:221px;
   left:536px; */
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%) scale(1);
   width: 528px;
-  height: 581px;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
   0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -662,7 +632,7 @@
 .work-title {
   text-align: center;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16px;
   letter-spacing: 0.03em;  
   margin-bottom: 50px;
   
@@ -677,7 +647,7 @@
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -1007,7 +977,7 @@ fill: #fff ;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.16px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--primery-text-colot);
@@ -1060,10 +1030,9 @@ margin-bottom: 50px;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-line-height: 1.14;
 margin-bottom: 20px;
 color: #FFFFFF;
 }
@@ -1187,7 +1156,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     min-width: 200px;
     min-height: 50px;
