@@ -1106,10 +1106,14 @@ color: #FFFFFF;
   
     /* Футер Подпишитесь на рассылку */
    
-    .subscribe{
-      display: flex;
-      flex-direction: column;
-    }
+  .subscribe-form{
+    margin-left: auto;
+  }
+
+  .subscribe{
+    display: flex;
+    flex-direction: column;
+  }
 
   .subscribe-lable{
     display: flex;
@@ -1120,54 +1124,60 @@ color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 20px;
+    
    
 
   }
 
   .subscribe-control{
     display: flex;
+    position: relative;
   }
 
   .subscribe-input{
     display: flex;
-    align-items: center;
     padding-left: 16px;
-    margin-right: 12px;
     width: 358px;
     height: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.25px;
-    letter-spacing: 0.06em;
-    letter-spacing: 0.03em;
+    line-height: 1.25;
+    letter-spacing: inherit;
     background-color: inherit;
     color: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-    border-radius: 4px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 
   }
 
   .subscribe-icon{
- 
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
 
 
   .subscribe-button{
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     display: inline-flex;
     margin: auto;
     padding-top: 10px;
+    padding-right: 29px;
     padding-bottom: 10px;
+    
     
     
     cursor: pointer;
