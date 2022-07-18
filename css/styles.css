@@ -332,7 +332,6 @@
 
   .form-field-lable-text{
     color: var( --form-field-lable-text) ;
-   
   }
   
   .form-field-input::placeholder {
@@ -438,20 +437,15 @@
     border: 0.2px solid #2196F3;
     border-radius: 2px;
     opacity: 0 ;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .checkbox-input:checked + .icon-check {
-    opacity: 1 ;
-    
-}
+  
+ 
 .checkbox-input:checked ~ .icon-check {
   opacity: 1 ;
   
 }
-
-
-
-
   
   .form-field-button{
     cursor: pointer;
@@ -643,23 +637,23 @@
 }
 
 .work-text{
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-width: 100%;
-height: 70px;
-display: flex;
-justify-content: center;
-align-items: center; 
-background: rgba(47, 48, 58, 0.8);
-bottom: 0;
-left: 0;
-position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  left: 0;
+  position: absolute;
 
 }
 
@@ -799,8 +793,7 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-  
-    
+      
   }
   
   
@@ -811,17 +804,14 @@ img {
   
   .servisces-title{
   display: none;
-  
-    
+      
   }
   
   .servisces-button{
   justify-content: center;
   display: flex;
   margin-bottom: 50px;
-  
-  
-     
+       
    
   }
   .title-button{
