@@ -421,38 +421,37 @@
 
 }
 
-    .checkbox-input {
+  .checkbox-input {
     appearance: none;
-    
   }
   
   .checkbox-icon {
     position: absolute;
-    /* fill:#212121;
-    border-radius: 2px solid #212121; */
     left:52px;
-    
+   
   }
     
-  /* .checkbox-icon.icon-square{
-    fill: #2196F3; 
-     background: #2196F3;
-    border-radius: 2px; 
-     opacity:0 ;
-  } */
-
-  .icon-check {
+    .icon-check {
     position: absolute;
     fill: #ffffff;
     background:#2196F3; 
     border: 0.2px solid #2196F3;
-    opacity: 0;
-  }
-
-  .checkbox-input:checked +.icon-check{
-    opacity: 1 ;
+    border-radius: 2px;
+    opacity: 0 ;
   }
   
+  .checkbox-input:checked + .icon-check {
+    opacity: 1 ;
+    
+}
+.checkbox-input:checked ~ .icon-check {
+  opacity: 1 ;
+  
+}
+
+
+
+
   
   .form-field-button{
     cursor: pointer;
